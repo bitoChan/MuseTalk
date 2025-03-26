@@ -1,10 +1,8 @@
-avator_1:
- preparation: False
- bbox_shift: 5
- video_path: "data/video/sun.mp4"
- audio_clips:
-     audio_0: "data/audio/yongen.wav"
-     audio_1: "data/audio/sun.wav"
- 
+preparation: True      # 首次使用新的avatar，需先準備材料，第二次以後改成False。
+video_path: "path/to/your/avatar_video.mp4"  # 你的原始 avatar 影片（MuseV 生成的或其他影片）。
+bbox_shift: [0, 0]     # 如果需要調整面部區域可以修改，否則預設 [0, 0]
+audio_clips:
+  - "data/audio/yongen.wav"   # 將你的音頻檔案放這裡
+
   
 
